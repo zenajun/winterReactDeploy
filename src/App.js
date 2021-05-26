@@ -7,7 +7,7 @@ function App() {
     <Router>
 
     <div className="App">
-      <header className="App-header">
+      <header >
         <h1>Deploying with Netlify</h1>
         <Link to="/cat">See the cat!</Link>
       </header>
