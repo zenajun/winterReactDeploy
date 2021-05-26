@@ -1,6 +1,6 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import Cat from 'Cat';
+import Cat from './Cat'
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
         <Link to="/cat">See the cat!</Link>
       </header>
       <Route to="/cat" component={Cat}></Route>
+      
     </div>
     </Router>
   );
