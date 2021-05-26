@@ -11,7 +11,7 @@ function App() {
         <h1>Deploying with Netlify</h1>
         <Link to="/cat">See the cat!</Link>
       </header>
-      <Route to="/cat" component={Cat}></Route>
+      <Route path="/cat" component={Cat}></Route>
       
     </div>
     </Router>
